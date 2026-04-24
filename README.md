@@ -17,7 +17,7 @@
 
 ---
 
-![profile](/src/imgs/profile-sm.webp)
+![profile](/src/imgs/profile-sm.webp){width=240px}
 
 **Oscar Aristizabal**
 
