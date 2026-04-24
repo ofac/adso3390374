@@ -4,7 +4,7 @@
 
 ### Centro de Procesos Industriales y Construcción
 
-*** Regional Caldas ***
+***Regional Caldas***
 
 ---
 
@@ -14,6 +14,11 @@
 |02. |HTML       |Structure - Hypertext Markup Language |
 |03. |CSS        |Look & Feel - Cascading Style Sheet   |
 |03. |Javascript |Behavior - Programing Language        |
+
+---
+
+![profile](/src/imgs/profile-sm.webp)
+**Oscar Aristizabal**
 
 [ADSO Files DRIVE](https://tinyurl.com/wnkk334u)
 
