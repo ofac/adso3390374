@@ -16,17 +16,149 @@
             <img src="../src/imgs/logo-emmet.svg" alt="Emmet">
             <h4>Plugin for faster HTML and CSS coding.</h4>
         </header>
+<!-- 01- Nesting -->
         <section>
             <h2>01-Child <em> > </em></h2>
             <p>Creates child elements (nesting)</p>
             <h4>Example:</h4>
-            <p>ul>li>a</p>
+            <p>ul>li>a ↔️</p>
             <h4>Result:</h4>
 <xmp>
     <ul>
         <li>
             <a href=""></a>
         </li>
+    </ul>
+</xmp>
+        </section>
+<!-- 02- Sibling -->
+ <section>
+            <h2>02-Sibling <em> + </em></h2>
+            <p>Creates sibling elements.</p>
+            <h4>Example:</h4>
+            <p>header+section+footer ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <header></header>
+    <section></section>
+    <footer></footer>
+</xmp>
+        </section>
+<!-- 03- Multiplication -->
+ <section>
+            <h2>03-Multiplication <em style="padding-top: 1.2rem;"> * </em></h2>
+            <p>Repeats elements multiple times.</p>
+            <h4>Example:</h4>
+            <p>ul>li*3 ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</xmp>
+        </section>
+<!-- 04- Class -->
+ <section>
+            <h2>04-Class <em style="padding-bottom: 1.4rem"> . </em></h2>
+            <p>Creates a class attribute.</p>
+            <h4>Example:</h4>
+            <p>div.container ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <div class="container"></div>
+</xmp>
+        </section>
+<!-- 05- Classes -->
+ <section>
+            <h2>05-Classes <em style="padding-bottom: 1.4rem"> .. </em></h2>
+            <p>Creates multiple class attributes.</p>
+            <h4>Example:</h4>
+            <p>div.color1.color2.color3 ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <div class="color1 color2 color3">
+    </div>
+</xmp>
+        </section>
+<!-- 06- Id -->
+ <section>
+            <h2>06-ID <em style="font-size: 1.6rem"> # </em></h2>
+            <p>Creates an ID attribute.</p>
+            <h4>Example:</h4>
+            <p>nav#menu ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <nav id="menu"></nav>
+</xmp>
+        </section>
+<!-- 07- Text -->
+ <section>
+            <h2>07-Text <em style="font-size: 1.4rem"> { } </em></h2>
+            <p>Inserts text content.</p>
+            <h4>Example:</h4>
+            <p>a{Click Here} ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <a href="">Click Here</a>
+</xmp>
+        </section>
+<!-- 08- Custom Attr -->
+ <section>
+            <h2>08-Custom Attr <em style="font-size: 1.4rem"> [ ] </em></h2>
+            <p>Creates custom attributes.</p>
+            <h4>Example:</h4>
+            <p>a[href=http://www.google.com] ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <a href="http://www.google.com">
+    </a>
+</xmp>
+        </section>
+<!-- 09- Numbering -->
+ <section>
+            <h2>09-Numbering <em style="font-size: 1.6rem"> $ </em></h2>
+            <p>Adds consecutive numbers.</p>
+            <h4>Example:</h4>
+            <p>ul>li.num$*3 ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <ul>
+        <li class="num1"></li>
+        <li class="num2"></li>
+        <li class="num3"></li>
+    </ul>
+</xmp>
+        </section>
+<!-- 10- Reverse Numbering -->
+ <section>
+            <h2>10-Invert Number <em style="font-size: 1.2rem"> @- </em></h2>
+            <p>Inverts numbering order.</p>
+            <h4>Example:</h4>
+            <p>ul>li.num$@-*3 ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <ul>
+        <li class="num3"></li>
+        <li class="num2"></li>
+        <li class="num1"></li>
+    </ul>
+</xmp>
+        </section>
+<!-- 11- Base Numbering -->
+ <section>
+            <h2>11-Base Numbering <em style="font-size: 1.2rem"> @n </em></h2>
+            <p>Defines a base number for sequences.</p>
+            <h4>Example:</h4>
+            <p>ul>li.num$@3*4 ↔️</p>
+            <h4>Result:</h4>
+<xmp>
+    <ul>
+        <li class="num3"></li>
+        <li class="num4"></li>
+        <li class="num5"></li>
+        <li class="num6"></li>
     </ul>
 </xmp>
         </section>
