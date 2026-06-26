@@ -3,17 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>08-Images</title>
+    <title>14-Video</title>
     <link rel="stylesheet" href="../src/css/master.css">
     <style>
-        section {
-            img {
-                border: 2px solid #fff9;
-                border-radius: 0.4rem;
-                width: 240px;
-                display: flex;
-                margin: 0 auto;
-            }
+        section video {
+            width: 100%;
         }
     </style>
 </head>
@@ -23,14 +17,15 @@
     </a>
     <main>
         <header class="mainmenu">
-            <h1>08-Images</h1>
-            <h3>Inserts an image.</h3>
+            <h1>14-Video</h1>
+            <h3>Inserts video files. </h3>
         </header>
         <section>
-            <h3>Relative Path:</h3>
-            <img src="imgs/shangri-la-frontier.jpg" alt="Shangri La">
-            <h3>Absolute Path:</h3>
-            <img src="https://shorturl.at/pospP" alt="Mushoku Tensei">
+            <h3>HTML5 Video:</h3>
+            <video src="video/html5.mp4" 
+                   preload controls 
+                   poster="imgs/cover.png">
+            </video>
         </section>
     </main>
 </body>

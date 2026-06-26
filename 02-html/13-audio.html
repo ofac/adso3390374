@@ -3,19 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>08-Images</title>
+    <title>13-Audio</title>
     <link rel="stylesheet" href="../src/css/master.css">
-    <style>
-        section {
-            img {
-                border: 2px solid #fff9;
-                border-radius: 0.4rem;
-                width: 240px;
-                display: flex;
-                margin: 0 auto;
-            }
-        }
-    </style>
 </head>
 <body class="html">
     <a href="index.html" class="btn-home">
@@ -23,14 +12,15 @@
     </a>
     <main>
         <header class="mainmenu">
-            <h1>08-Images</h1>
-            <h3>Inserts an image.</h3>
+            <h1>13-Audio</h1>
+            <h3>Inserts audio files. </h3>
         </header>
         <section>
-            <h3>Relative Path:</h3>
-            <img src="imgs/shangri-la-frontier.jpg" alt="Shangri La">
-            <h3>Absolute Path:</h3>
-            <img src="https://shorturl.at/pospP" alt="Mushoku Tensei">
+            <h3>SENA Anthem:</h3>
+            <audio src="audio/sena.mp3" 
+                   preload 
+                   controls>
+            </audio>
         </section>
     </main>
 </body>
