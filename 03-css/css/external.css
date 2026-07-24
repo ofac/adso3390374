@@ -1,0 +1,10 @@
+div.flag {
+    background: radial-gradient(circle, #bc002d 25%, #fff 25%);
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 2rem auto;
+    width: 300px;
+}
